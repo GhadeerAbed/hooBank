@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/components/page.js",
+    "src/components/Billing/page.jsx",
+    "src/components/Testimonial/page.jsx",
+    "src/components/Stats/page.jsx",
+    "src/components/Navbar/page.jsx",
+    "src/components/Hero/page.jsx",
+    "src/components/GetStarted/page.jsx",
+    "src/components/Footer/page.jsx",
+    "src/components/FeedbackCard/page.jsx",
+    "src/components/CTA/page.jsx",
+    "src/components/Clients/page.jsx",
+    "src/components/CardDeal/page.jsx",
+    "src/components/Button/page.jsx",
+    "src/components/Business/page.jsx",
+    "src/app/page.jsx",
+    "src/app/layout.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

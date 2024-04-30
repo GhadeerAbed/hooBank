@@ -1,0 +1,12 @@
+// export { Navbar } from "./Navbar/page";
+// export * from "./Billing";
+// export * from "./Card";
+// export * from "./CardDeal";
+// export * from "./Client";
+// export * from "./Stats";
+// export * from "./Footer";
+// export * from "./Hero";
+// export * from "./GetStarted";
+// export * from "./Testmonial";
+// export * from "./Business";
+// export * from "./CTA";
